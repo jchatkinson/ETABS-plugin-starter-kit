@@ -8,7 +8,7 @@ namespace ETABS_Plugin
 {
     public class cPlugin
     {
-        public void Main(ref ETABSv17.cSapModel SapModel, ref ETABSv17.cPluginCallback ISapPlugin)
+        public void Main(ref ETABSv1.cSapModel SapModel, ref ETABSv1.cPluginCallback ISapPlugin)
         {
             Form1 form = new Form1(ref SapModel, ref ISapPlugin);
             form.Show();

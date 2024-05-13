@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ETABSv17">
-      <HintPath>C:\Program Files\Computers and Structures\ETABS 17\ETABSv17.dll</HintPath>
+    <Reference Include="ETABSv1">
+      <HintPath>L:\03 Programs\CSI America (SAFE, ETABS, SAP2000, etc.)\ETABS - Standalone\Plugin Development\Kor Tools\ETABSv1.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -67,6 +67,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="L:\03 Programs\CSI America %28SAFE, ETABS, SAP2000, etc.%29\ETABS - Standalone\Plugin Development\Kor Tools\ETABSv1.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ETABSv17;
+using ETABSv1;
 
 namespace ETABS_Plugin
 {
